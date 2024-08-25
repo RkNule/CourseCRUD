@@ -1,0 +1,22 @@
+/* src/components/CourseListing.css */
+.course-listing {
+  padding: 20px;
+}
+
+.course-listing ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-listing li {
+  margin-bottom: 10px;
+}
+
+.course-listing a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.course-listing a:hover {
+  text-decoration: underline;
+}

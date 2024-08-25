@@ -1,0 +1,26 @@
+/* src/components/CourseInstanceListing.css */
+.course-instance-listing {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .course-instance-listing ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-instance-listing li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .course-instance-listing li:last-child {
+    border-bottom: none;
+  }
+  
+  .course-instance-listing a {
+    color: #007bff;
+  }
+  
