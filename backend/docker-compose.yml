@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    image: rohannule02954/courses-backend:latest
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/coursesdb
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: Laxmi@143
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: coursesdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Laxmi@143
+    ports:
+      - "5432:5432"
